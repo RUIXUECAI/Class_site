@@ -1,8 +1,29 @@
-p
-.a{
-	color:rgb(255, 255, 255);
-	background:rgb(215, 136, 185);
+.a {
+  color:white;
+  background-color:rgba(251, 128, 255, 0.5);
+  margin: 25px 25px 40px 40px;
+  font-size: 16px;
+  font-family: Lucida Console;
+  border-style: inset;
+  border-radius: 10px;
+   padding: 50px;
 }
 .b{
+  color:rgba(176,11,110,0.5);
+  font-weight: bold;
+  font-family: Courier New;
+  font-size: 22px;
+  margin: 25px 25px 40px 40px;
+  border: none;
+  padding:20px;
+}
 
+.c{
+    color:rgba(176,11,110,0.5);
+    font-size: 30px;
+}
+.imgdiv{
+margin: 25px 25px 40px 40px;
+  border: none;
+  padding:20px;
 }
