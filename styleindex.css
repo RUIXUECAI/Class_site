@@ -1,0 +1,42 @@
+.a
+{
+  flex-wrap:wrap;
+  justify-content: space-between;
+  text-shadow:4px 4px rgb(209, 209, 209);
+  color:rgb(255, 103, 199);
+  background:rgb(230, 172, 221);
+  margin: 40px 40px 200px 100px;
+  text-align:left;
+  font-size: 80px;
+   font-family: 'Krona One', sans-serif;
+   padding: 50px;
+   z-index: 2;
+   border-radius: 10px;
+   transition:0.5s;
+   box-sizing: border-box;
+   box-shadow: -10px 25px 50px rgba(0,0,0,.2);
+}
+.a:hover
+{
+  box-shadow: -20px 50px 100px rgb(0,0,0,.5);
+}
+.b
+{
+  margin: 40px 40px 200px 100px;
+  text-align:left;
+  color:white;
+  font-size: 35px;
+  border-color: rgb(182, 241, 183);
+  background:rgb(230, 172, 221);
+   font-family: 'Krona One', sans-serif;
+   padding: 50px;
+   z-index: 2;
+   border-radius: 10px;
+   transition:0.5s;
+   box-sizing:border-box;
+   box-shadow: -10px 25px 50px rgba(0,0,0,.2);
+}
+.b:hover
+{
+  box-shadow: -20px 50px 100px rgb(0,0,0,.5);
+}
