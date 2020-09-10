@@ -1,5 +1,5 @@
 html{
-  background-color: rgb(188, 227, 246);
+  background-color: rgb(32, 41, 46);
 }
 .a{
   margin: 50px 25px 40px 40px;
@@ -8,7 +8,7 @@ html{
     justify-content: center;
 }
 .b{
-  color:rgb(32, 25, 22);
+  color:rgb(255, 255, 255);
   font-weight: bold;
   font-family: Courier New;
   font-size: 22px;
