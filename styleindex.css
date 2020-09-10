@@ -5,7 +5,7 @@
   text-shadow:4px 4px rgb(209, 209, 209);
   color:rgb(255, 103, 199);
   background:rgb(230, 172, 221);
-  margin: 40px 40px 200px 100px;
+  margin: 30px 30px 50px 50px;
   text-align:left;
   font-size: 80px;
    font-family: 'Krona One', sans-serif;
@@ -22,7 +22,7 @@
 }
 .b
 {
-  margin: 40px 40px 200px 100px;
+  margin: 30px 30px 50px 50px;
   text-align:left;
   color:white;
   font-size: 35px;
@@ -38,4 +38,11 @@
 .b:hover
 {
   box-shadow: -20px 50px 100px rgb(0,0,0,.5);
+}
+.homepage
+{
+  flex-direction:column;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:stretch;
 }
