@@ -1,0 +1,48 @@
+*
+{
+  box-sizing: border-box;
+}
+body{
+background-image:url(wall2.jpg);
+  background-size:cover;
+}
+h1{
+  position:absolute;
+  left:500px;
+  font-family: fantasy;
+  z-index: 10;
+  color:rgb(207, 35, 35);
+}
+
+.main-container{
+height: 100%;
+width:100%;
+display:flex;
+cursor: -webkit-grab; cursor: grab;
+}
+.back{
+  position:relative;
+  width:1200px;
+  height:700px;
+  left:150px;
+  image.filter:(blurredImage);
+  z-index:-3;
+}
+.front{
+  position:absolute;
+  top: 0px;
+  left: -50px;
+  z-index:0;
+}
+
+canvas{
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:0;
+  animation: erase 14s  ease-out;
+}
+@keyframes erase {
+  from {left: -700%;}
+to {left: 0%;}
+}
