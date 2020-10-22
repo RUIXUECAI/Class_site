@@ -40,9 +40,9 @@ canvas{
   top:0;
   left:0;
   z-index:0;
-  animation: erase 14s  ease-out;
+  animation: erase 12s  ease-out;
 }
 @keyframes erase {
-  from {left: -700%;}
+  from {left: -1000%;}
 to {left: 0%;}
 }
