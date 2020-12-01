@@ -17,6 +17,28 @@ height:350px;
 top: 40%;
 left: 32%;
 }
+.screen2{
+  position:fixed;
+  margin:0;
+  padding:0;
+  z-index: -4;
+width:500px;
+height:350px;
+top: 70%;
+left: 10%;
+transform: rotate(-20deg);
+}
+.screen3{
+  position:fixed;
+  margin:0;
+  padding:0;
+  z-index: -4;
+width:500px;
+height:350px;
+top: 78%;
+left: 60%;
+transform: rotate(60deg);
+}
 .ground{
   position:fixed;
   width:1000px;
