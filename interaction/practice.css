@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color:rgb(231, 118, 118) ;
+}
+
+.special{
+  color:rgb(106, 70, 168);
+  cursor: cell;
+}
+
+.special:hover{
+  color:white;
+}
+
+.hidden{
+  /*display:none;*/
+  position:fixed;
+  z-index:1;
+  opacity:0;
+  transition:opacity .5s ease;
+  pointer-events:none;
+}
+.img-a{
+  top:20%;
+  left:20%;
+}
+.img-b{
+  bottom:20%;
+  right:20%;
+}
+.special:hover .hidden{
+  opacity: 1;
+}
+.object{
+  width:200px;
+  height: 200px;
+  background:rgb(247, 243, 127);
+  border-radius: 50%;
+  position:fixed;
+  top:45%;
+  left:45%;
+  cursor:grab;
+  transition: transform 1s ease,
+              background 2s ease,
+              border-radius 1s ease;
+              transition-delay: .2s
+            }
+.object:hover{
+  transform:scale(2);
+  background:rgb(114, 101, 233);
+  border-radius:0;
+
+}
