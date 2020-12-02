@@ -48,7 +48,7 @@ z-index: 2;
 }
 p{
   color:rgb(0, 0, 0);
-  font-family: OCR A Std;
+  font-family: 'Syne Mono', monospace;
   text-decoration: none;
   font-size: 20px;
 }
