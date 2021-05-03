@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(30deg,rgb(244, 104, 16),rgb(227, 139, 90),rgb(217, 197, 164));
+  display:flow-root;
+   flex-direction:column;
+   flex-wrap:nowrap;
+   cursor: -webkit-grab; cursor: grab;
+     animation: bganimation 15s infinite;
+}
+
+.title{
+  width: 100vw;
+  height:30vh;
+  display:flex;
+  position:fixed;
+  align-items:flex-start;
+  font-family:Magic Hat;
+  color:rgb(9, 82, 76);
+  font-size: 180px;
+}
+.title2{
+  width:35vw;
+  height: 3vh;
+  float:right;
+  display:flex;
+  position:sticky;
+  top: 20px;
+  align-items:flex-end;
+  font-family:Charlemagne Std;
+  /* color:; */
+  font-size: 10px;
+  z-index: -2;
+}
+
+.p{
+  position:relative;
+  padding:50px;
+  background-color:rgba(168, 224, 209, 1);
+  border-radius:11px;
+  box-shadow:20px 20px rgb(133, 166, 240);
+animation: animate1 4s ease-in-out infinite;
+}
+.p::after,.p::before{
+  position:absolute;
+  content:'';
+  height:11px;
+  bottom:-25px;
+  left:0px;
+  background-color:rgba(168, 224, 209, 1);
+  border-radius:11px;
+  box-shadow:20px 20px rgb(133, 166, 240);
+
+}
+.p::after{
+ width:50px;
+ bottom:-25px;
+ animation: animate2 4s ease-in-out infinite;
+  }
+.p::before{
+ width:11px;
+ bottom:-50px;
+ animation: animate3 2s ease-in-out infinite;
+}
+@keyframes animate1{
+  50%{
+    transform: translateY(-20px);
+  }
+}
+@keyframes animate2{
+  50%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes animate3{
+  50%{
+    transform: translateY(-15px);
+  }
+}
+.a{
+  width:50vw;
+  height:40vh;
+  padding: 30px;
+  background-color:;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:space-space-between;
+  align-items:flex-start;
+  font-family:ITC Bookman;
+}
+.b{
+  width:50vw;
+  height:50vh;
+  right:0;
+  padding:50px;
+  position:relative;
+  float: right;
+  background-color:;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap-reverse;
+  justify-content:flex-end;
+  align-items:flex-end;
+  font-family:ITC Bookman;
+}
+.p2{
+  position:relative;
+  padding:50px;
+  background-color:rgba(241, 165, 160, 1);
+  border-radius:11px;
+  box-shadow:20px 20px rgb(233, 163, 216);
+animation: animate1 5s ease-in-out infinite;
+}
+.p2::after,.p2::before{
+  position:absolute;
+  content:'';
+  height:11px;
+  bottom:-25px;
+  left:550px;
+  background-color:rgba(241, 165, 160, 1);
+  border-radius:11px;
+  box-shadow:20px 20px rgb(233, 163, 216);
+
+}
+.p2::after{
+ width:50px;
+ bottom:-25px;
+ animation: animate2 3s ease-in-out infinite;
+  }
+.p2::before{
+ width:11px;
+ bottom:-50px;
+ animation: animate3 3s ease-in-out infinite;
+}
+.box span {
+  border-radius: 4px;
+    position: relative;
+    transition: background 1s 1s, box-shadow 1s 1s;
+}
+transition-property: background, box-shadow;
+    transition-duration: 1s, 1s;
+    transition-timing-function: ease, ease;
+    transition-delay: 1s, 1s;
+
+animation: highlight-2 4s;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: highlight-2;
