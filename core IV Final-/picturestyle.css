@@ -2,7 +2,7 @@ img{
   transform: matrix( 1 , 0 , 0 , 1 , 0 , 0 )
 }
 .pic1{
-  width:400px;
+  width:200px;
   height:300px;
   display:flex;
   position:absolute;
