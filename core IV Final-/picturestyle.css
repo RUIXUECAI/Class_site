@@ -6,70 +6,70 @@ img{
   height:300px;
   display:flex;
   position:absolute;
-  top:160px;
-  left:1000px;
+  top:20vh;
+  left:74vw;
 }
 .pic2{
-  width:400px;
-  height:300px;
+  width:44vh;
+  height:10vw;
   display:flex;
   position:absolute;
-  top:530px;
-  left:100px;
+  top:68vh;
+  left:4vw;
 }
 .pic4{
-  width:400px;
-  height:300px;
+  width:50vh;
+  height:30vw;
   display:flex;
   position:absolute;
-  top:830px;
-  left:300px;
+  top:110vh;
+  left:25vw;
 }
 .pic3{
-  width:400px;
-  height:300px;
+  width:70vh;
+  height:30vw;
   display:flex;
   position:absolute;
-  top:2200px;
-  left:320px;
+  top:290vh;
+  left:23vw;
 }
 .pic6{
-  width:800px;
-  height:300px;
+  width:75vh;
+  height:100vw;
   display:flex;
   position:absolute;
-  top:2600px;
-  left:50px;
+  top:345vh;
+  left:0vw;
 }
 .pic7{
-  width:800px;
-  height:300px;
+  width:85vh;
+  height:70vw;
   display:flex;
   position:absolute;
-  top:5000px;
-  left:350px;
+  top:670vh;
+  left:45vw;
 }
 .pic9{
   width:50px;
   height:300px;
   display:flex;
   position:absolute;
-  top:3500px;
-  left:950px;
+  top:460vh;
+  left:65vw;
 }
 .pic10{
   width:50px;
   height:300px;
   display:flex;
   position:absolute;
-  top:6250px;
-  left:20px;
+  top:810vh;
+  left:3vw;
 }
 .pic11{
   width:50px;
   height:300px;
   display:flex;
   position:absolute;
-  top:7800px;
-  left:150px;
+  top:1020vh;
+  left:14vw;
 }

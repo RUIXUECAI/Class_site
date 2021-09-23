@@ -12,28 +12,87 @@ body{
 
 .title{
   width: 100vw;
-  height:30vh;
+  height:32vh;
+  top:3vh;
   display:flex;
   position:fixed;
   align-items:flex-start;
   font-family:Magic Hat;
   color:rgb(9, 82, 76);
-  font-size: 180px;
+  font-size: 160px;
 }
 .title2{
-  width:35vw;
+  width:60vw;
   height: 3vh;
   float:right;
   display:flex;
-  position:sticky;
-  top: 20px;
-  align-items:flex-end;
-  font-family:Charlemagne Std;
+  position:fixed;
+  top: 45vh;
+  left: 2vw;
+  align-items:flex-start;
+  font-family:Magic Hat;
+  color:rgba(87, 111, 100, 1);
   /* color:; */
-  font-size: 10px;
+  font-size: 15px;
   z-index: -2;
 }
-
+.hand0{
+  width:60vw;
+  height: 3vh;
+  float:right;
+  display:flex;
+  position:fixed;
+  top: 10vh;
+  left: -5vw;
+  align-items:flex-start;
+  z-index: -3;
+  animation-delay: 2s;
+  animation: disapear 4s infinite;
+}
+.hand{
+  width:60vw;
+  height: 3vh;
+  float:right;
+  display:flex;
+  position:fixed;
+  top: 30vh;
+  left: 20vw;
+  align-items:flex-start;
+  z-index: -3;
+  animation: disapear 5s infinite;
+}
+.hand2{
+  width:60vw;
+  height: 3vh;
+  float:right;
+  display:flex;
+  position:fixed;
+  top: 10vh;
+  left: 50vw;
+  align-items:flex-start;
+  z-index: -3;
+  animation: disapear 6s infinite;
+}
+.hand3{
+  width:60vw;
+  height: 3vh;
+  float:right;
+  display:flex;
+  position:fixed;
+  top: 30vh;
+  left: 80vw;
+  align-items:flex-start;
+  z-index: -3;
+  animation: disapear 7s infinite;
+}
+@keyframes disapear{
+ 0%
+   {filter:opacity(0%);}
+ 50%
+    {filter:opacity(100%);}
+100%
+       {filter:opacity(0%);}
+ }
 .p{
   position:relative;
   padding:50px;
