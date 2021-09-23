@@ -47,7 +47,7 @@ body{
   align-items:flex-start;
   z-index: -3;
   animation-delay: 2s;
-  animation: disapear 4s infinite;
+  animation: disapear 6s infinite;
 }
 .hand{
   width:60vw;
@@ -59,7 +59,7 @@ body{
   left: 20vw;
   align-items:flex-start;
   z-index: -3;
-  animation: disapear 5s infinite;
+  animation: disapear 7s infinite;
 }
 .hand2{
   width:60vw;
@@ -71,7 +71,7 @@ body{
   left: 50vw;
   align-items:flex-start;
   z-index: -3;
-  animation: disapear 6s infinite;
+  animation: disapear 8s infinite;
 }
 .hand3{
   width:60vw;
@@ -83,7 +83,7 @@ body{
   left: 80vw;
   align-items:flex-start;
   z-index: -3;
-  animation: disapear 7s infinite;
+  animation: disapear 9s infinite;
 }
 @keyframes disapear{
  0%
