@@ -25,23 +25,50 @@
     z-index: 100;
   }
 
-  .top-container{
-      display:flex;
-      flex-direction: row;
-      justify-content:center;
+  .top-container1{
+      position:absolute;
       background-color:;
-      height:40%;
-      width:100%;
-      left:-6vw;
-      padding:2vh 7vh 0 25vw;
+      height:10%;
+      width:15%;
+      left:20%;
       color:rgb(184, 184, 184);
       font-size: 25px;
-    font-family: monoton;
+    font-family: 'monoton';
     z-index: 99;
-position: relative;
   }
-  .top-container:hover{
+  .top-container1:hover{
     cursor: url(rocket-.ico),50 50, auto;
+      transform:scale(1.1);
+  }
+  .top-container2{
+    position:absolute;
+    background-color:;
+    height:10%;
+    width:15%;
+    left:50%;
+      color:rgb(184, 184, 184);
+      font-size: 25px;
+    font-family: 'monoton';
+    z-index: 99;
+  }
+  .top-container2:hover{
+    cursor: url(rocket-.ico),50 50, auto;
+      transform:scale(1.1);
+  }
+  .top-container3{
+    position:absolute;
+    background-color:;
+    height:10%;
+    width:15%;
+    left:80%;
+      color:rgb(184, 184, 184);
+      font-size: 25px;
+    font-family: 'monoton';
+    z-index: 99;
+  }
+  .top-container3:hover{
+    cursor: url(rocket-.ico),50 50, auto;
+      transform:scale(1.1);
   }
   .words{
       display:flex;
@@ -49,18 +76,17 @@ position: relative;
       justify-content:center;
       background-color:;
       height:40%;
-      width:30%;
-      top:38vh;
-      left:65vw;
-      color:rgba(224, 224, 224, 0.55);
-      font-size: 15px;
-    font-family: Stencil Std;
+      width:38%;
+      top:33vh;
+      left:50vw;
+      color:rgba(193, 193, 193, 0.55);
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.56);
+      font-size: 24px;
+    font-family: 'Anton';
     z-index: 99;
 position: relative;
   }
   .row-item {
-  width:60%;
-  height:100%;
   border-width: 3px;
   border-color: rgb(255, 255, 255);
   color:rgb(145, 145, 145);
@@ -68,7 +94,7 @@ position: relative;
 .row-item:hover{
   color:rgb(91, 181, 129);
   text-shadow: 20px 20px 30px rgb(255, 255, 255);
-  transform:scale(1.05);
+  transform:scale(1.1);
   cursor: url(rocket-.ico), auto;
 }
 .screen{
@@ -76,8 +102,8 @@ position: relative;
   margin:0;
   padding:0;
   z-index: 1;
-width:800px;
-height:100px;
+width:1000vw;
+height:760vh;
 top: 18.9%;
 left: 32%;
 }
@@ -85,8 +111,8 @@ left: 32%;
     position:fixed;
     margin:0;
     padding:0;
-  width:740px;
-  height:206px;
+  width:54vw;
+  height:26vh;
   top: 24.3%;
   left: 41.5%;
   background:url(N-background.jpg);
@@ -106,12 +132,42 @@ left: 32%;
 }
 .name{
   position:fixed;
-  width:740px;
-  height:205px;
-  top: 24.5%;
-  left: 41.5%;
-  font-size: 130px;
-  font-family: Stencil Std;
+  width:180vw;
+  height:180vh;
+  top: -65%;
+  left: -75%;
+  font-size: 230px;
+  font-family: 'Anton';
+  color:rgba(196, 0, 255, 0.56);
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  z-index: 3;
+  text-shadow: 0 0 15px rgba(196, 0, 255, 0.56);
+}
+.name2{
+  position:fixed;
+  width:180vw;
+  height:180vh;
+  top: -33%;
+  left: -41%;
+  font-size: 230px;
+  font-family: 'Anton';
+  color:rgba(196, 0, 255, 0.56);
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  z-index: 3;
+  text-shadow: 0 0 15px rgba(196, 0, 255, 0.56);
+}
+.name3{
+  position:fixed;
+  width:180vw;
+  height:180vh;
+  top: -5%;
+  left: -8%;
+  font-size: 230px;
+  font-family: 'Anton';
   color:rgba(196, 0, 255, 0.56);
   display: flex;
   justify-content:center;
@@ -147,10 +203,10 @@ left: 32%;
 
 .spaceman2{
   position:fixed;
-  top:45%;
-  left:42%;
+  top:65%;
+  left:65%;
     z-index: -5;
-        animation: spin2 6s infinite;
+        animation: spin2 13s infinite;
 }
 @keyframes spin{
   0% {transform:translateY(-20px);}
@@ -162,7 +218,7 @@ left: 32%;
 @keyframes spin2{
   20% {transform:translateY(-20px);}
   60%{
-    transform:translateY(60px);}
+    transform:translateY(40px);}
     90%{
       transform:translateY(-20px);}
 }
