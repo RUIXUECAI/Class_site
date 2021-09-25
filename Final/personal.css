@@ -5,11 +5,24 @@
 	body{
     background-color:rgba(0, 0, 0, 1);
 	}
+  html{
+  cursor: url(rocket-.ico), auto;
+}
   canvas{
   position:fixed;
   z-index: -10;
   top:0;
   left:0;
+  }
+
+  . line {
+    border-bottom: 1px solid rgb(161, 161, 161);
+    width: 100vw;
+    position: fixed;
+    top:10%;
+    left:0;
+    margin-left:0;
+    z-index: 100;
   }
 
   .top-container{
@@ -19,20 +32,44 @@
       background-color:;
       height:40%;
       width:100%;
-      padding:0px 10px 0 200px;
-      color:white;
-      font-size: 30px;
+      left:-6vw;
+      padding:2vh 7vh 0 25vw;
+      color:rgb(184, 184, 184);
+      font-size: 25px;
     font-family: monoton;
+    z-index: 99;
+position: relative;
+  }
+  .top-container:hover{
+    cursor: url(rocket-.ico),50 50, auto;
+  }
+  .words{
+      display:flex;
+      flex-direction: row;
+      justify-content:center;
+      background-color:;
+      height:40%;
+      width:30%;
+      top:38vh;
+      left:65vw;
+      color:rgba(224, 224, 224, 0.55);
+      font-size: 15px;
+    font-family: Stencil Std;
     z-index: 99;
 position: relative;
   }
   .row-item {
   width:60%;
   height:100%;
-  color:rgb(255, 255, 255);
+  border-width: 3px;
+  border-color: rgb(255, 255, 255);
+  color:rgb(145, 145, 145);
 }
 .row-item:hover{
-  text-shadow: 0 0 15px rgb(255, 255, 255);
+  color:rgb(91, 181, 129);
+  text-shadow: 20px 20px 30px rgb(255, 255, 255);
+  transform:scale(1.05);
+  cursor: url(rocket-.ico), auto;
 }
 .screen{
   position:fixed;
@@ -75,22 +112,22 @@ left: 32%;
   left: 41.5%;
   font-size: 130px;
   font-family: Stencil Std;
-  color:rgba(204, 204, 204);
+  color:rgba(196, 0, 255, 0.56);
   display: flex;
   justify-content:center;
   align-items:center;
   z-index: 3;
-  text-shadow: 0 0 15px rgb(255, 255, 255);
+  text-shadow: 0 0 15px rgba(196, 0, 255, 0.56);
 }
 .ground{
   position:fixed;
-  width:1000px;
-  height:800px;
-  border-radius: 50%;
-  top:80%;
-  left:10%;
-  background:url(ground-dark.jpg);
-  background-size: contain;
+  width:100vw;
+  height:50vh;
+  transform: rotateX(35deg);
+  top:65%;
+  left:0%;
+  background:url(moon.png);
+  background-size: cover;
   z-index: 2;
 }
 .smoke{
@@ -98,10 +135,12 @@ left: 32%;
   z-index: 4;
   top:0;
   left:0;
+  bottom:3vh;
 }
 .spaceman{
   position:fixed;
-  top:20%;
+  top:25%;
+  Left:0%;
     z-index: -4;
     animation: spin 6s infinite;
 }
