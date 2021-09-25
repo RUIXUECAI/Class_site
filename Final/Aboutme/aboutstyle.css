@@ -11,8 +11,8 @@ left:0;
   position:fixed;
   width:740px;
   height:205px;
-  top: 40%;
-  left: 20%;
+  top: 10%;
+  left: 0%;
   font-size: 200px;
   font-family: Black Ops One;
   color:rgba(204, 204, 204);
@@ -26,8 +26,8 @@ left:0;
   position:fixed;
   width:740px;
   height:205px;
-  top: 40%;
-  left: 20%;
+  top: 45%;
+  left: 18%;
   font-size: 20px;
   font-family: Black Ops One;
   color:rgba(204, 204, 204);
@@ -36,6 +36,73 @@ left:0;
   align-items:center;
   z-index: 3;
   text-shadow: 0 0 15px rgb(255, 255, 255);
+}
+.circle{
+  width:5vw;
+  height:9vh;
+  border-radius: 50%;
+  background-color:rgba(120, 199, 136, 0.68);
+    z-index: 2;
+}
+.circle2{
+  position:fixed;
+  width:50vw;
+  height:83vh;
+  top:70%;
+  left:70%;
+  border-radius: 50%;
+  background-color:rgba(186, 56, 195, 0.58);
+    z-index: 2;
+}
+.ball{
+  width:30px;
+  height:30px;
+  top:10vh;
+  left:20vw;
+  border-radius:50%;
+  line-height: normal;
+  position:absolute;
+  animation: spin 2.7s infinite;
+  transform-origin:450% 200px;
+}.loader
+{
+  position: relative;
+  width:300px;
+  height:300px;
+  transform-style:preserve-3d;
+  transform:perspective(500px) rotateX(60deg);
+}
+
+.loader span-ball{
+ position:absolute;
+ position:absolute;
+ display:block;
+ border:2px solid ;
+ box-sizing:border-box;
+ border-radius:50%;
+}
+.loader span-ball{
+top:-10px;
+left:-10px;
+right:-10px;
+bottom:-10px;}
+@keyframes spin{
+  to{transform: rotate(1turn);}
+ 0%{
+   background:rgb(68, 235, 95);
+ }
+ 20%{
+   background: rgb(82, 163, 200);
+ }
+ 40%{
+   background:rgb(244, 66, 250);
+ }
+ 80%{
+   background: rgb(82, 163, 200);
+ }
+ 100%{
+   background:rgb(68, 235, 95);
+ }
 }
 .back{
   position:fixed;
