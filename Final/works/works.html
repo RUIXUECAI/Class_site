@@ -4,59 +4,57 @@
     <meta charset="utf-8">
   <link rel="stylesheet" href="works.css">
 <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+</style>
     <title></title>
   </head>
   <body>
     <div class="main-container">
-    <div class="right">
-      <p> <a href="https://ruixuecai.github.io/Class_site/Reading%20response/reading%20response.html"> READING RESPONSES</a></P>
-      <p> <a href="https://ruixuecai.github.io/Class_site/LaTurbo%20Avedon/article.html">ARTICLE PRACTICE</a></p>
-  <p> <a href="https://ruixuecai.github.io/Class_site/article%20practice2/article2.html"> ARTICLE PRACTICE2</a></p>
-  <p> <a href="https://ruixuecai.github.io/Class_site/article%20practice3/article3.html">ARTICLE PRACTICE3</a></p>
-</div>
-      <div class="left">
-        <p> <a href="https://ruixuecai.github.io/Class_site/Flexbox%20Sketch/flexbox%20sketch.html"> FLEXBOX SKETCH</a></p>
-        <p> <a href="https://ruixuecai.github.io/Class_site/screensaver/screensaver.html"> SCREENSAVER</a></p>
-        <p> <a href="https://ruixuecai.github.io/Class_site/responsive/responsive.html"> RESPONSIVE PRACTICE</a></p>
-        <p> <a href="https://ruixuecai.github.io/Class_site/secret/secret.html"> SECRET</a></p>
-        <p> <a href="https://ruixuecai.github.io/Class_site/Aura/Aura.html"> AURA</a></p>
+    <div class='circle'><div class="item"><div class="info">
+<a href="#">
+       <h3>Aura</h3>
+       <p>The Reflection of Annoying</p>
+      </a>
+      </div></div></div>
+    <div class='circle2'></div>
+    <div class='circle3'></div>
+    <div class='circle4'></div>
       </div>
-      </div>
+
       <div class="cloud">
       <img src="clouds3.png" width="1800px"height="770px"></img>
     </div>
     <div class="cloud2">
     <img src="clouds3.png" width="1800px"height="770px"></img>
   </div>
-
+  <div class="back">
+  <a href="https://ruixuecai.github.io/Class_site/Final/personal%20webpage.html"><img src="rocket-512.png" width="80px"height="80px"></a>
+  </div>
+      <canvas></canvas>
       <script src="p5.min.js"></script>
       <script>
 
-const radius = 210;
+      const radius = 330;
 
-function setup() {
-  createCanvas(windowWidth, windowHeight, WEBGL);
-  noStroke();
-  fill(255);
-}
+      function setup() {
+      createCanvas(windowWidth, windowHeight, WEBGL);
+      noStroke();
+      fill(255);
+      }
 
-function draw() {
-  noStroke();
-  background(0);
-  const dirY = (mouseY / height - 0.5) * 25;
-  const dirX = (mouseX / width - 0.5) * 25;
-  directionalLight(255, 255, 255, dirX, dirY, 1);
-  translate(-1.5 * radius, 0, 0);
-  sphere(radius);
-  translate(3* radius, 0, 0);
-  sphere(radius);
-}
-</script>
-      <canvas></canvas>
-      <div class="back">
-      <a href="https://ruixuecai.github.io/Class_site/Final/personal%20webpage.html"><img src="rocket-512.png" width="80px"height="80px"></a>
-      </div>
-
+      function draw() {
+      noStroke();
+      background(0);
+      const dirY = (mouseY / height - 0.5) * 25;
+      const dirX = (mouseX / width - 0.5) * 25;
+      directionalLight(255, 255, 255, dirX, dirY, 1);
+      translate(-1.5 * radius, 0, 0);
+      sphere(radius);
+      translate(3* radius, 0, 0);
+      sphere(radius);
+      }
+      </script>
 
 
 
