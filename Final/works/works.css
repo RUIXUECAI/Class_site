@@ -117,7 +117,7 @@ font-family: 'Josefin Slab', serif;
   height:100%;
   background:url(window.png);
   background-size: contain;;
-  border-radius: 10%;
+  border-radius: 5%;
   font-family: 'Raleway', sans-serif;
   text-align: center;
   transition: all .4s ease-in-out;
@@ -148,11 +148,60 @@ font-family: 'Josefin Slab', serif;
   width:400px;
   height:400px;
   border-radius: 5%;
-  background-color:black;
+  background:url(skin2.png);
+  background-size: contain;
   border:14px solid;
   border-color:rgba(0, 0, 0, 1);
   z-index:3;
   transitaion: all .4s ease-in-out;
+}
+.circle2:hover{
+  border:0;
+}
+.circle2:hover .info2{
+  opacity: 1;
+  transform: scale(1);
+}
+.circle2:hover .info2 h3{
+  opacity: 1;
+    transform:scale(1);
+}
+.circle2:hover .info2 p{
+  opacity: 1;
+    transform:scale(1);
+}
+.info2{
+  opacity:0;
+  transform:;
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:url(skin.png);
+  background-size: contain;;
+  border-radius: 5%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  transition: all .4s ease-in-out;
+}
+.info2 h3{
+    opacity: 0;
+    transform:scale(0);
+  height:140px;
+  font-size:30px;
+  color: rgb(255, 255, 255);
+  margin:0 20px;
+  padding-top: 40%;
+  transition: all 1s ease-in-out;
+}
+.info2 p{
+    opacity: 0;
+      transform:scale(0);
+  height:100px;
+  font-size:15px;
+  color: rgb(255, 255, 255);
+  margin:0 20px;
+  padding-top: 10%;
+  transition: all 1s ease-in-out;
 }
 .circle3{
   width:400px;

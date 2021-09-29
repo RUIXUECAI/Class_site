@@ -96,9 +96,9 @@ body{
 .p{
   position:relative;
   padding:50px;
-  background-color:rgba(168, 224, 209, 1);
+  background-color:rgba(187, 136, 76, 1);
   border-radius:11px;
-  box-shadow:20px 20px rgb(133, 166, 240);
+  box-shadow:20px 20px rgb(154, 117, 54);
 animation: animate1 4s ease-in-out infinite;
 }
 .p::after,.p::before{
@@ -107,9 +107,9 @@ animation: animate1 4s ease-in-out infinite;
   height:11px;
   bottom:-25px;
   left:0px;
-  background-color:rgba(168, 224, 209, 1);
+  background-color:rgba(187, 136, 76, 1);
   border-radius:11px;
-  box-shadow:20px 20px rgb(133, 166, 240);
+  box-shadow:20px 20px rgb(154, 117, 54);
 
 }
 .p::after{
@@ -167,9 +167,9 @@ animation: animate1 4s ease-in-out infinite;
 .p2{
   position:relative;
   padding:50px;
-  background-color:rgba(241, 165, 160, 1);
+  background-color:rgba(244, 223, 186, 1);
   border-radius:11px;
-  box-shadow:20px 20px rgb(233, 163, 216);
+  box-shadow:20px 20px rgb(204, 177, 140);
 animation: animate1 5s ease-in-out infinite;
 }
 .p2::after,.p2::before{
@@ -178,9 +178,9 @@ animation: animate1 5s ease-in-out infinite;
   height:11px;
   bottom:-25px;
   left:550px;
-  background-color:rgba(241, 165, 160, 1);
+  background-color:rgba(244, 223, 186, 1);
   border-radius:11px;
-  box-shadow:20px 20px rgb(233, 163, 216);
+  box-shadow:20px 20px rgb(204, 177, 140);
 
 }
 .p2::after{
