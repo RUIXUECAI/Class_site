@@ -102,4 +102,5 @@ transform: rotate(60deg);
 }
 .back:hover{
   transform:scale(1.5);
+  cursor: url(man.ico), auto;
 }

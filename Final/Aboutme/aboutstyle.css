@@ -117,4 +117,5 @@ bottom:-10px;}
 }
 .back:hover{
   transform:scale(1.5);
+  cursor: url(man.ico), auto;
 }
