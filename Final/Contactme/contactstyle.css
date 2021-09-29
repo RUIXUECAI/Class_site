@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
+html{
+    cursor: url(man.ico), auto;
+}
 canvas{
 position:fixed;
 z-index: -10;

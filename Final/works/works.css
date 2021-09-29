@@ -4,6 +4,9 @@
 body{
 
 }
+html{
+    cursor: url(man.ico), auto;
+}
 a{color:rgb(0, 0, 0);
   text-decoration: none;}
 canvas{
@@ -16,12 +19,12 @@ left:0;
   position:absolute;
   height:15vh;
   width:100vw;
-  top:10%;
+  top:13%;
   left:42%;
 font-family: 'Josefin Slab', serif;
-  letter-spacing: 50px;
+  letter-spacing: 55px;
   color:rgb(255, 255, 255);
-  font-size: 35px;
+  font-size: 25px;
   z-index: 5;
 }
 .title2{
@@ -31,9 +34,9 @@ font-family: 'Josefin Slab', serif;
   top:45%;
   left:42%;
 font-family: 'Josefin Slab', serif;
-  letter-spacing: 50px;
+  letter-spacing: 55px;
   color:rgb(255, 255, 255);
-  font-size: 35px;
+  font-size: 25px;
   z-index: 5;
 }
 .title3{
@@ -43,9 +46,9 @@ font-family: 'Josefin Slab', serif;
   top:80%;
   left:42%;
 font-family: 'Josefin Slab', serif;
-  letter-spacing: 50px;
+  letter-spacing: 55px;
   color:rgb(255, 255, 255);
-  font-size: 35px;
+  font-size: 25px;
   z-index: 5;
 }
 .title4{
