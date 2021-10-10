@@ -13,13 +13,14 @@ body{
 .title{
   width: 100vw;
   height:32vh;
-  top:3vh;
+  top:-9vh;
+  left:20vw;
   display:flex;
   position:fixed;
   align-items:flex-start;
   font-family:Magic Hat;
   color:rgb(9, 82, 76);
-  font-size: 160px;
+  font-size: 220px;
 }
 .title2{
   width:60vw;
@@ -85,6 +86,10 @@ body{
   z-index: -3;
   animation: disapear 9s infinite;
 }
+<div class="hand0"><img src="handprint.png" width="300px" height="300px"></div>
+<div class="hand"><img src="handprint.png" width="300px" height="300px"></div>
+<div class="hand2"><img src="handprint.png" width="300px" height="300px"></div>
+<div class="hand3"><img src="handprint.png" width="300px" height="300px"></div>
 @keyframes disapear{
  0%
    {filter:opacity(0%);}
