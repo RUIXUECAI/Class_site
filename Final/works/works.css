@@ -26,12 +26,12 @@ canvas {
   height: 15vh;
   width: 100vw;
   top: 30.5%;
-  left: 49%;
-  font-family: 'Floorlight';
+  left: 49.5%;
+  font-family: 'Dream';
   letter-spacing: 55px;
-  color:rgb(82, 82, 82);
-  font-size: 50px;
-  text-shadow: 2px 2px rgb(201, 201, 201);
+  color:rgba(209, 64, 217, 0.7);
+  text-shadow: 0 0 30px rgba(255, 40, 223, 0.56);
+  font-size: 100px;
   z-index: 1;
 }
 .title2 {
@@ -40,57 +40,69 @@ canvas {
   width: 100vw;
   top: 31%;
   left: 52%;
-  font-family: 'Floorlight';
+  font-family: 'Dream';
   letter-spacing: 58px;
   color: rgb(139, 137, 137);
-  font-size: 90px;
-  text-shadow: 2px 2px rgb(201, 201, 201);
+  font-size: 70px;
+  text-shadow: 0 0 10px rgb(201, 201, 201);
   z-index: 3;
 }
 .title4 {
   position: absolute;
-  top: 51%;
-  left: 44%;
-  font-family: 'Floorlight';
-  letter-spacing: 58px;
-  color: rgb(139, 137, 137);
-  font-size: 70px;
-  text-shadow: 2px 2px rgb(227, 221, 221);
-  z-index: 3;
+  height: 15vh;
+  width: 100vw;
+  top: 86.5%;
+  left: -52%;
+  font-family: 'Dream';
+  letter-spacing: 55px;
+  color:rgba(209, 64, 217, 0.7);
+  text-shadow: 0 0 30px rgba(255, 40, 223, 0.56);
+  transform: rotateY(180deg);
+  font-size: 30px;
+  z-index: 1;
 }
 .title5 {
   position: absolute;
-  top: 54%;
-  left: 49%;
-  font-family: 'Floorlight';
+  height: 15vh;
+  width: 100vw;
+  top: 87%;
+  left: -52%;
+  font-family: 'Dream';
   letter-spacing: 58px;
-  color: rgb(82, 82, 82);
-  font-size: 40px;
-  text-shadow: 2px 2px rgb(227, 221, 221);
-  z-index: 1;
+  color: rgb(139, 137, 137);
+  font-size: 20px;
+  text-shadow: 0 0 10px rgb(201, 201, 201);
+    transform: rotateY(180deg);
+  z-index: 3;
 }
 .title6 {
   position: absolute;
-  top: 51%;
-  left: 51%;
-  font-family: 'Floorlight';
-  letter-spacing: 58px;
-  color: rgb(182, 179, 179);
-  font-size: 80px;
-  text-shadow: 2px 2px rgb(208, 208, 208);
-  z-index: 3;
+  height: 15vh;
+  width: 100vw;
+  top: 2%;
+  left: -40%;
+  font-family: 'Dream';
+  letter-spacing: 55px;
+  color:rgba(209, 64, 217, 0.7);
+  text-shadow: 0 0 30px rgba(255, 40, 223, 0.56);
+  transform: rotateY(180deg);
+  font-size: 15px;
+  z-index: 1;
 
 }
 .title7 {
   position: absolute;
-  top: 52%;
-  left: 55%;
-  font-family: 'Floorlight';
+  height: 15vh;
+  width: 100vw;
+  top: 2%;
+  left: -40%;
+  font-family: 'Dream';
   letter-spacing: 58px;
-  color: rgb(108, 105, 105);
-  font-size: 60px;
-  text-shadow: 2px 2px rgb(227, 221, 221);
-  z-index: 1;
+  color: rgb(139, 137, 137);
+  font-size: 10px;
+  text-shadow: 0 0 10px rgb(201, 201, 201);
+    transform: rotateY(180deg);
+  z-index: 3;
 }
 
 .fuzzy {
@@ -336,6 +348,7 @@ p {
   width: 350px;
   height: 330px;
   background-size: 100% 100% !important;
+
 }
 
 .tu{
@@ -344,12 +357,12 @@ p {
   position: relative;
   background-size: 100% 100% !important;
 
+
 }
 .wen{
   position: absolute;
   top: 130px;
   left: 40px;
-
 }
 .wen a{
   color: white;
