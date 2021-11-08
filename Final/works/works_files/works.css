@@ -25,72 +25,26 @@ canvas {
   position: absolute;
   height: 15vh;
   width: 100vw;
-  top: 30.5%;
-  left: 49%;
-  font-family: 'Floorlight';
+  top: 13%;
+  left: 42%;
+  font-family: 'Josefin Slab', serif;
   letter-spacing: 55px;
-  color:rgb(82, 82, 82);
-  font-size: 50px;
-  text-shadow: 2px 2px rgb(201, 201, 201);
-  z-index: 1;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  z-index: 2;
 }
-.title2 {
+
+.title3 {
   position: absolute;
   height: 15vh;
   width: 100vw;
-  top: 31%;
-  left: 52%;
-  font-family: 'Floorlight';
-  letter-spacing: 58px;
-  color: rgb(139, 137, 137);
-  font-size: 90px;
-  text-shadow: 2px 2px rgb(201, 201, 201);
-  z-index: 3;
-}
-.title4 {
-  position: absolute;
-  top: 51%;
-  left: 44%;
-  font-family: 'Floorlight';
-  letter-spacing: 58px;
-  color: rgb(139, 137, 137);
-  font-size: 70px;
-  text-shadow: 2px 2px rgb(227, 221, 221);
-  z-index: 3;
-}
-.title5 {
-  position: absolute;
-  top: 54%;
-  left: 49%;
-  font-family: 'Floorlight';
-  letter-spacing: 58px;
-  color: rgb(82, 82, 82);
-  font-size: 40px;
-  text-shadow: 2px 2px rgb(227, 221, 221);
-  z-index: 1;
-}
-.title6 {
-  position: absolute;
-  top: 51%;
-  left: 51%;
-  font-family: 'Floorlight';
-  letter-spacing: 58px;
-  color: rgb(182, 179, 179);
-  font-size: 80px;
-  text-shadow: 2px 2px rgb(208, 208, 208);
-  z-index: 3;
-
-}
-.title7 {
-  position: absolute;
-  top: 52%;
-  left: 55%;
-  font-family: 'Floorlight';
-  letter-spacing: 58px;
-  color: rgb(108, 105, 105);
-  font-size: 60px;
-  text-shadow: 2px 2px rgb(227, 221, 221);
-  z-index: 1;
+  top: 80%;
+  left: 42%;
+  font-family: 'Josefin Slab', serif;
+  letter-spacing: 55px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  z-index: 2;
 }
 
 .fuzzy {
@@ -174,7 +128,7 @@ canvas {
   color: rgb(255, 255, 255);
   font-family: 'Poiret One', cursive;
   margin: 0 4px;
-  padding-top: 30%;
+  padding-top: 40%;
   transition: all 1s ease-in-out;
 }
 
@@ -186,7 +140,7 @@ canvas {
   color: rgb(255, 255, 255);
   font-family: 'Poiret One', cursive;
   margin: 0 5px;
-  padding-top: 5%;
+  padding-top: 10%;
   transition: all 2s ease-in-out;
 }
 
@@ -262,7 +216,21 @@ canvas {
   transition: all 2s ease-in-out;
 }
 
+.item3 {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: rgb(218, 55, 126);
+  z-index: 3;
+}
 
+.item4 {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: rgb(55, 63, 218);
+  z-index: 3;
+}
 
 p {
   color: rgb(0, 0, 0);
@@ -307,8 +275,8 @@ p {
 
 .back {
   position: fixed;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   top: 5%;
   left: 90%;
   transition: all 0.6s;
@@ -349,16 +317,10 @@ p {
   position: absolute;
   top: 130px;
   left: 40px;
-
 }
 .wen a{
   color: white;
 }
-h2{
+h1,h2{
   color: white;
-  font-family: 'Poiret One', cursive;
-}
-h1{
-  color: white;
-  font-family: 'Raleway', sans-serif;
 }
