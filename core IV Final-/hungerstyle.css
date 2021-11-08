@@ -14,11 +14,11 @@ body{
   width: 100vw;
   height:32vh;
   top:-9vh;
-  left:20vw;
+  left:2vw;
   display:flex;
   position:fixed;
   align-items:flex-start;
-  font-family:Magic Hat;
+  font-family:Enchanted Land;
   color:rgb(9, 82, 76);
   font-size: 220px;
 }
@@ -28,8 +28,8 @@ body{
   float:right;
   display:flex;
   position:fixed;
-  top: 45vh;
-  left: 2vw;
+  top: 50vh;
+  left: 4vw;
   align-items:flex-start;
   font-family:Magic Hat;
   color:rgba(87, 111, 100, 1);
