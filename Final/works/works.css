@@ -87,7 +87,7 @@ canvas {
   text-shadow: 0 0 30px rgba(255, 40, 223, 0.56);
   transform: rotateY(180deg);
   font-size: 15px;
-  z-index: 1;
+  z-index: 6;
 
 }
 .title7 {
