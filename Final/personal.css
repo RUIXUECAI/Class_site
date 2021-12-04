@@ -32,7 +32,7 @@
       width:15%;
       left:20%;
       color:rgb(184, 184, 184);
-      font-size: 25px;
+      font-size: 170%!important;
     font-family: 'monoton';
     z-index: 99;
     transition: all .4s ease-in-out;
@@ -48,7 +48,7 @@
     width:15%;
     left:50%;
       color:rgb(184, 184, 184);
-      font-size: 25px;
+      font-size:170%!important;
     font-family: 'monoton';
     z-index: 99;
       transition: all .4s ease-in-out;
@@ -64,7 +64,7 @@
     width:15%;
     left:80%;
       color:rgb(184, 184, 184);
-      font-size: 25px;
+      font-size: 170%!important;
     font-family: 'monoton';
     z-index: 99;
       transition: all .4s ease-in-out;
@@ -114,13 +114,13 @@ left: 32%;
     position:fixed;
     margin:0;
     padding:0;
-  width:54%;
-  height:26%;
-  top: 24.3vh;
-  left: 41.5vw;
+  width:54vw;
+  height:26vh;
+  top: 24%;
+  left: 41.5%;
   background:url(N-background.jpg);
   animation:animate .5s linear infinite;
-  z-index: 2;
+  z-index: 0;
 }
 @keyframes animate
 {
