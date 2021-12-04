@@ -26,7 +26,7 @@
   }
 
   .top-container1{
-      position:absolute;
+      position:fixed;
       background-color:;
       height:10%;
       width:15%;
@@ -74,17 +74,17 @@
       transform:scale(1.1);
   }
   .words{
-      display:flex;
+        position:fixed;
       flex-direction: row;
       justify-content:center;
       background-color:;
       height:40%;
       width:38%;
-      top:33vh;
-      left:50vw;
+      top:35vh;
+      left:60vw;
       color:rgba(193, 193, 193, 0.55);
       text-shadow: 0 0 15px rgba(255, 255, 255, 0.56);
-      font-size: 24px;
+      font-size: 200%!important;
     font-family: 'Anton';
     z-index: 99;
 position: relative;
@@ -105,19 +105,21 @@ position: relative;
   margin:0;
   padding:0;
   z-index: 1;
-width:1000vw;
-height:760vh;
-top: 18.9%;
+width:70vw;
+height:70vh;
+background:url(screen.png);
+background-size:cover;
+top: 15%;
 left: 32%;
 }
 .img{
     position:fixed;
     margin:0;
     padding:0;
-  width:54vw;
-  height:26vh;
-  top: 24%;
-  left: 41.5%;
+  width:52vw;
+  height:35vh;
+  top: 22%;
+  left: 41%;
   background:url(N-background.jpg);
   animation:animate .5s linear infinite;
   z-index: 0;
@@ -160,7 +162,7 @@ left: 32%;
   display: flex;
   justify-content:center;
   align-items:center;
-  z-index: 3;
+  z-index: 5;
   text-shadow: 0 0 15px rgba(196, 0, 255, 0.56);
 }
 .name3{
@@ -192,9 +194,9 @@ left: 32%;
 .smoke{
   position:absolute;
   z-index: 4;
-  top:0;
-  left:0;
-  bottom:3vh;
+  top:4%;
+  left:10%;
+  bottom:3%;
 }
 .spaceman{
   position:fixed;

@@ -80,11 +80,11 @@ transform: rotate(60deg);
 }
 .name{
   position:fixed;
-  width:740px;
-  height:205px;
-  top: 40%;
-  left: 20%;
-  font-size: 20px;
+  width:50vw;
+  height:20vh;
+  top: 50%;
+  left: 22%;
+  font-size: 120%!important;
   text-decoration:underline;
   font-family: Black Ops One;
   color:rgba(204, 204, 204);
