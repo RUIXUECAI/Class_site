@@ -15,8 +15,10 @@ left:0;
   margin:0;
   padding:0;
   z-index: 2;
-width:500px;
-height:350px;
+width:40vw;
+height:50vh;
+background:url(oldTV.png);
+background-size:cover;
 top: 40%;
 left: 32%;
 }
@@ -25,10 +27,10 @@ left: 32%;
   margin:0;
   padding:0;
   z-index: -4;
-width:500px;
-height:350px;
-top: 70%;
-left: 10%;
+  width:50vw;
+  height:35vh;
+top:60%;
+left: 0%;
 transform: rotate(-20deg);
 }
 .screen3{
@@ -36,34 +38,34 @@ transform: rotate(-20deg);
   margin:0;
   padding:0;
   z-index: -4;
-width:500px;
-height:350px;
-top: 78%;
-left: 60%;
+  width:50vw;
+  height:35vh;
+top: 85%;
+left: 55%;
 transform: rotate(60deg);
 }
 .ground{
   position:fixed;
-  width:1000px;
-  height:800px;
+  width:75vw;
+  height:80vh;
   border-radius: 50%;
   top:80%;
   left:13%;
   background:url(ground-dark.jpg);
   background-size: contain;
-  z-index: 1;
+  z-index: 0;
 }
 .img{
     position:fixed;
     margin:0;
     padding:0;
-  width:450px;
-  height:300px;
+  width:35vw;
+  height:41vh;
   top: 42%;
   left: 33%;
   background:url(N-background.jpg);
   animation:animate .7s linear infinite;
-  z-index: -1;
+  z-index: 1;
 }
 @keyframes animate
 {
