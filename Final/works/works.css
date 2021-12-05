@@ -25,9 +25,9 @@ canvas {
   position: fixed;
   height: 15vh;
   width: 100vw;
-  top: 30.5%;
-  left: 49.5%;
-  font-family: 'Dream';
+  top: 28%;
+  left: 50%;
+  font-family: 'Gravitas One', cursive;
   letter-spacing: 55px;
   color:rgba(209, 64, 217, 0.7);
   text-shadow: 0 0 30px rgba(255, 40, 223, 0.56);
@@ -40,7 +40,7 @@ canvas {
   width: 100vw;
   top: 31%;
   left: 52%;
-  font-family: 'Dream';
+  font-family: 'Gravitas One', cursive;
   letter-spacing: 58px;
   color: rgb(139, 137, 137);
   font-size: 430%!important;
@@ -53,7 +53,7 @@ canvas {
   width: 100vw;
   top: 86.5%;
   left: -52%;
-  font-family: 'Dream';
+  font-family: 'Gravitas One', cursive;
   letter-spacing: 55px;
   color:rgba(209, 64, 217, 0.7);
   text-shadow: 0 0 30px rgba(255, 40, 223, 0.56);
@@ -67,7 +67,7 @@ canvas {
   width: 100vw;
   top: 87%;
   left: -52%;
-  font-family: 'Dream';
+  font-family: 'Gravitas One', cursive;
   letter-spacing: 58px;
   color: rgb(139, 137, 137);
   font-size:  150%!important;
@@ -81,7 +81,7 @@ canvas {
   width: 100vw;
   top: 2%;
   left: -40%;
-  font-family: 'Dream';
+  font-family: 'Gravitas One', cursive;
   letter-spacing: 55px;
   color:rgba(209, 64, 217, 0.7);
   text-shadow: 0 0 30px rgba(255, 40, 223, 0.56);
@@ -96,7 +96,7 @@ canvas {
   width: 100vw;
   top: 2%;
   left: -40%;
-  font-family: 'Dream';
+  font-family: 'Gravitas One', cursive;
   letter-spacing: 58px;
   color: rgb(139, 137, 137);
   font-size: 70%!important;
