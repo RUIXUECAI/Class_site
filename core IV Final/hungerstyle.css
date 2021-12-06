@@ -84,7 +84,7 @@ animation: animate1 4s ease-in-out infinite;
   flex-wrap:wrap;
   justify-content:space-space-between;
   align-items:flex-start;
-  font-family:ITC Bookman;
+  font-family:'Mukta', sans-serif;
 }
 .b{
   width:50vw;
@@ -99,7 +99,7 @@ animation: animate1 4s ease-in-out infinite;
   flex-wrap:wrap-reverse;
   justify-content:flex-end;
   align-items:flex-end;
-  font-family:ITC Bookman;
+  font-family:'Mukta', sans-serif;
 }
 .p2{
   position:relative;
