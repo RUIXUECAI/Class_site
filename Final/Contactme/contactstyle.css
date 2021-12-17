@@ -81,16 +81,41 @@ transform: rotate(60deg);
 .name{
   position:fixed;
   width:50vw;
-  height:20vh;
+  height:40vh;
   top: 50%;
-  left: 22%;
+  left: 40%;
   font-size: 120%!important;
-  text-decoration:underline;
-  font-family: Black Ops One;
+  font-family: 'Anton', sans-serif;
   color:rgba(204, 204, 204);
+  background-color:;
+  z-index: 3;
+  text-shadow: 0 0 15px rgb(255, 255, 255);
+}
+.name2{
+  position:fixed;
+  width:50vw;
+  height:40vh;
+  top: 55%;
+  left: 40%;
+  font-size: 120%!important;
+  font-family: 'Anton', sans-serif;
+  color:rgba(204, 204, 204);
+  background-color:;
   display: flex;
-  justify-content:center;
-  align-items:center;
+  z-index: 3;
+  text-shadow: 0 0 15px rgb(255, 255, 255);
+}
+.name3{
+  position:fixed;
+  width:50vw;
+  height:40vh;
+  top: 60%;
+  left: 40%;
+  font-size: 120%!important;
+  font-family: 'Anton', sans-serif;
+  color:rgba(204, 204, 204);
+  background-color:;
+  display: flex;
   z-index: 3;
   text-shadow: 0 0 15px rgb(255, 255, 255);
 }
