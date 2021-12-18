@@ -79,8 +79,7 @@ canvas{
   top:0;
   left:0;
   z-index:4;
-  animation: show 12s  ease-out;
-  animation-delay:20ms;
+  animation: erase 10s  ease-out;
 }
 @keyframes show {
   0%{
