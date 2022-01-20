@@ -78,7 +78,7 @@ canvas{
     height:100vh;
   top:0;
   left:0;
-  z-index:4;
+  z-index:0;
   animation: erase 10s  ease-out;
 }
 @keyframes show {
